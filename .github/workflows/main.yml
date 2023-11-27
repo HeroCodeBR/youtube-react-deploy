@@ -30,4 +30,4 @@ jobs:
         server: developertools.cloud
         username: u533666231
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: public_html/
+        local-dir: dist/
