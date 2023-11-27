@@ -27,7 +27,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: developertools.cloud
+        server: ftp://developertools.cloud
         username: u533666231
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: dist/
